@@ -1,5 +1,5 @@
 Name:           strongswan
-Release:        1%{?dist}
+Release:        2%{?dist}
 Version:        5.6.2
 Summary:        An OpenSource IPsec-based VPN and TNC solution
 Group:          System Environment/Daemons
@@ -273,6 +273,7 @@ fi
 %{_libdir}/%{name}/plugins/lib%{name}-pkcs7.so
 %{_libdir}/%{name}/plugins/lib%{name}-sqlite.so
 %{_libdir}/%{name}/plugins/lib%{name}-eap-tnc.so
+%{_libdir}/%{name}/plugins/lib%{name}-eap-radius.so
 %{_libdir}/%{name}/plugins/lib%{name}-tnc-imc.so
 %{_libdir}/%{name}/plugins/lib%{name}-tnc-imv.so
 %{_libdir}/%{name}/plugins/lib%{name}-tnc-tnccs.so
