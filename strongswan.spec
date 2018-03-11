@@ -1,5 +1,5 @@
 Name:           strongswan
-Release:        2%{?dist}
+Release:        3%{?dist}
 Version:        5.6.2
 Summary:        An OpenSource IPsec-based VPN and TNC solution
 Group:          System Environment/Daemons
@@ -291,3 +291,9 @@ fi
 %{_libdir}/%{name}/libipsec.so.0
 %{_libdir}/%{name}/libipsec.so.0.0.0
 %{_libdir}/%{name}/plugins/libstrongswan-kernel-libipsec.so
+
+
+%changelog
+* Thu Mar 11 2018 karthik - 5.6.2-3
+- disable fips .. it keeps throwing error and won't let openssl load
+
