@@ -64,7 +64,7 @@ autoreconf
     --with-ipsecdir=%{_libexecdir}/%{name} \
     --bindir=%{_libexecdir}/%{name} \
     --with-ipseclibdir=%{_libdir}/%{name} \
-    --with-fips-mode=2 \
+    --with-fips-mode=0 \
     --with-tss=trousers \
     --enable-openssl \
     --enable-unity \
